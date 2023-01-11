@@ -47,7 +47,7 @@ function start() {
     }
     if (vPlus === 1) {
         console.log({ asisten: jawab.value })
-        if (jawab.value === 'silvi' || jawab.value === 'veronika') {
+        if (jawab.value == 'silvi' || jawab.value == 'veronika') {
             bot1({ asistent: jawab.value });
         } else {
             alert(`asisten bernama ${jawab.value} yang kamu pilih tidak ada di bot ini,silahkan pilih silvi atau veronika ya... :)`);
