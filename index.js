@@ -92,7 +92,7 @@ function bot2(jawabanuser) {
 }
 function bot3(jawabanuser) {
     new Typed('.auto-typ', {
-        strings: [`jadi udah ${jawabanuser.umur} ya, aku panggil kakak ya...ehehe.kak ${hasilInput[1]} kamu udah nikah apa belum...`],
+        strings: [`jadi udah ${jawabanuser.umur} ya, aku panggil kakak ya...ehehe.kak ${hasilInput[1]} kamu udah punya pacar apa belum...`],
         typeSpeed: 50,
         backSpeed: 0,
         fadeOut: true,
@@ -102,7 +102,7 @@ function bot3(jawabanuser) {
 }
 function bot4(jawabanuser) {
     new Typed('.auto-typ', {
-        strings: [`wah ${jawabanuser.menikah} nikah ya, berarti masih ada kesempatan dong buat ${hasilInput[0]} deketin kaka ehehe`],
+        strings: [`wah ${jawabanuser.menikah} punya pacar ya, berarti masih ada kesempatan dong buat ${hasilInput[0]} deketin kaka ehehe`],
         typeSpeed: 50,
         backSpeed: 0,
         fadeOut: true,
